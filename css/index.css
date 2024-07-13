@@ -40,6 +40,22 @@ body section .border button span {
 }/*# sourceMappingURL=index.css.map */
 .bg-primary{
   color: #ffff00 !important;
-  background-image: linear-gradient(to bottom, #ff694c, #ff4c4c) !important;
+  background-image: linear-gradient(to bottom, #ffac2f, #ff4c4c) !important;
+}
+.btn1 {
+  color: #fff !important;
+  background-color: #ff0000 !important;
+  border-radius: 10px !important; /* エッジを少し丸くする */
+  border: 1px solid black !important; /* ボーダーを明示的に設定 */
+  width: 200px; /* 楕円形にするための幅 */
+  height: 40px; /* 楕円形にするための高さ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1:hover {
+  background-color: #ff8113 !important;
+  color: #ffff00 !important;
 }
 
