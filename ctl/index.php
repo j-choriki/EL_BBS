@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $list[] = $post_list;
         }
     } 
-
+    // var_dump($list);
     $conn->close();
     
 }else{
@@ -71,11 +71,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $post_list['name'] = $row['username'];
             $post_list['msg'] = $row['message'];
             $post_list['time'] = $row['created_at'];
+            $post_list['good'] = $row['good'];
+
             $list[] = $post_list;
         }
     } 
     $conn->close();
-    
 }
 
 require_once('../view/index_html.php');
