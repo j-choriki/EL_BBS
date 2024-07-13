@@ -37,11 +37,16 @@
     <section>
         <?php foreach ($list as $key => $data):?>
             <div  class="border">
-                <div class="flex" id="<?php echo $data['id']?>">
+                <div class="flex" id="<?php echo $data['id'];?>">
                     <p>ニックネーム：<?php echo $data['name']; ?></p>
                     <p><?php echo $data['time'];?></p>
+                    <div class="show_flex">
+                    <p><img src="../uploads_img/<?php echo $data['id']; ?>.png" width="200"></p>
+                    <p><?php echo $data['msg']?></p>
+                    </div>
+                    
                 </div>
-                <p><?php echo $data['msg']?></p>
+                
                 <button class="btn_atsui"><img src="../img/netsu.jpeg" alt="" width="50"><span class="good_num"><?= $data['good']; ?><span></button>
             </div>
         

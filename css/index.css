@@ -19,13 +19,20 @@ body section form .form-group label {
 body section .border {
   border: 1px solid black;
 }
-body section .border .flex {
+body section .border p {
   display: flex;
   justify-content: space-between;
-
+  margin-left: 5px;
 }
+
+.show_flex{
+  display: flex;
+  font-size:1.5rem;
+}
+
+
 body section .border button {
-  margin: 0 20px;
+  margin: 5px 5px;
   background-color: transparent;
   border: 2px solid red;
   border-radius: 10px;
@@ -36,8 +43,9 @@ body section .border button {
 }
 body section .border button span {
   font-size: 1.5rem;
+  color: #ffff00;
 }/*# sourceMappingURL=index.css.map */
-}/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
 .bg-primary{
   color: #ffff00 !important;
   background-image: linear-gradient(to bottom, #ff694c, #ff4c4c) !important;
