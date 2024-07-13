@@ -15,7 +15,6 @@
 </header>
 <main>
     <div>
-        <video src="../mp4/honoo.mp4"></video>
     </div>
     <section>
         <form action="./index.php" method="POST" enctype="multipart/form-data">
@@ -43,7 +42,7 @@
                     <p><?php echo $data['time'];?></p>
                 </div>
                 <p><?php echo $data['msg']?></p>
-                <button class="btn_atsui">熱い!!!</button>
+                <button class="btn_atsui"><img src="../img/netsu.jpeg" alt="" width="50"><span class="good_num"><?= $data['good']; ?><span></button>
             </div>
         
         <?php endforeach;?>
