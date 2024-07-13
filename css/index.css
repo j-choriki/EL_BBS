@@ -23,3 +23,7 @@ body section .border .flex {
   display: flex;
   justify-content: space-between;
 }/*# sourceMappingURL=index.css.map */
+.bg-primary{
+  color: #ffff00 !important;
+  background-image: linear-gradient(to bottom, #ff694c, #ff4c4c) !important;
+}

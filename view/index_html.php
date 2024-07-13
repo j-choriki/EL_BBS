@@ -9,7 +9,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <title>夏鍋食おうぜ！</title>
 </head>
-<body>
+<body class="p-3 mb-2 bg-primary bg-gradient">
 <header>
     <h1>夏鍋食おうぜ！</h1>
 </header>
