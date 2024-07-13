@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body header {
+  width: 80%;
+  margin: 0 auto;
+}
+body section {
+  width: 80%;
+  margin: 0 auto;
+}
+body section form {
+  margin: 30px auto;
+}
+body section form .form-group label {
+  display: block;
+}
+body section .border {
+  border: 1px solid black;
+}
+body section .border .flex {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=index.css.map */
