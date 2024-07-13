@@ -30,7 +30,7 @@
                 <label for="image">画像</label>
                 <input type="file" id="image" name="image" class="form-group">
             </div>
-            <button type="submit" class="btn btn-danger">届け熱い思い！！！！</button>
+            <button type="submit" class="btn btn1">届け熱い思い！！！！</button>
         </form>
     </section>
 
